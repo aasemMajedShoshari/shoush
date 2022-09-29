@@ -1,0 +1,124 @@
+<html>
+    <head>
+        <style>
+            {{asset "styles.css"}}
+        </style>
+    </head>
+    <body>
+    <table border="1">
+      <tr class="header">
+        <td colspan="4">Salary Statement of the Month</td>
+      </tr>
+      <tr>
+        <th>Employee Name</th>
+        <td colspan="5">{{name}}  </td>
+      </tr>
+      <!-----2 row--->
+      <tr>
+        <th>Emoployee Number</th>
+        <td>{{id}}</td>
+        <th>Joining Date</th>
+        <td>{{joiningDate}}</td>
+      </tr>
+      <!------3 row---->
+      <tr>
+        <th>Account Number</th>
+        <td>{{accNumber}}</td>
+        <th>Designation</th>
+        <td>{{designation}}</td>
+      </tr>
+      <!------4 row---->
+      <tr>
+        <th>Day Present</th>
+        <td>{{dayPresent}}</td>
+        <th>Total Paid Leaves</th>
+        <td>{{totalPaidLeaves}}</td>
+      </tr>
+      <!------5 row---->
+      <tr>
+        <th>Salary Month</th>
+        <td>{{month}}</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <!------6 row---->
+
+      <tr>
+        <th colspan="2">Earnings</th>
+        <th colspan="2">Deductions</th>
+      </tr>
+      <tr>
+        <td></td>
+        <td>Amount</td>
+        <td></td>
+        <td>Amount</td>
+      </tr>
+      <tr>
+        <td>Basic Salary</td>
+        <td>{{basicSalary}} JD</td>
+        <td>SSC</td>
+        <td>{{SSC}}</td>
+      </tr>
+      <tr>
+        <td>Acommodation</td>
+        <td>{{accomodation}}</td>
+        <td>Income tax</td>
+        <td>{{incomeTax}}</td>
+      </tr>
+      <tr>
+        <td>Transportation</td>
+        <td>{{transportation}}</td>
+        <td>Medical Insurance</td>
+        <td>{{medicalInsurance}}</td>
+      </tr>
+      <tr>
+        <td>Phone</td>
+        <td>{{phone}}</td>
+        <td>Loan</td>
+        <td>{{loan}}</td>
+      </tr>
+      <tr>
+        <td>Meals</td>
+        <td>{{meals}}</td>
+        <td>Advance</td>
+        <td>{{advance}}</td>
+      </tr>
+      <tr>
+        <td>Fuel</td>
+        <td>{{fuel}}</td>
+        <td>Misc. Deductions</td>
+        <td>{{miscDeductions}}</td>
+      </tr>
+      <tr>
+        <td>Guaranteed Bonus</td>
+        <td>{{bonus}}</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Perf Incentives</td>
+        <td>{{incentives}}</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Arrears</td>
+        <td>{{arrears}}</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>Gross Earnings</th>
+        <td>{{totalEarnings}} JD</td>
+        <th>Gross Deductions</th>
+        <td>{{totalDeductions}} JD</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><strong>NET PAY</strong></td>
+        <td>{{netSalary}}</td>
+        <td></td>
+      </tr>
+    </table>
+    </body>
+</html>

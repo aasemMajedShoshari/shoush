@@ -1,0 +1,20 @@
+{
+    "name": "salarySlipTemplate",
+    "engine": "handlebars",
+    "recipe": "chrome-pdf",
+    "data": {
+        "shortid": "_nlyMv-1U"
+    },
+    "shortid": "UV89ks_N0A",
+    "chrome": {
+        "printBackground": true
+    },
+    "creationDate": {
+        "$$date": 1662481243160
+    },
+    "modificationDate": {
+        "$$date": 1662911847350
+    },
+    "_id": "uTcQd5aY4BTY4HbJ",
+    "$entitySet": "templates"
+}

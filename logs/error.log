@@ -1,0 +1,44 @@
+2022-09-11T15:43:59.103Z - error: Report render failed: Unexpected token o in JSON at position 1 SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (c:\shoush\API\node_modules\@jsreport\jsreport-core\lib\shared\request.js:60:17)
+    at module.exports (c:\shoush\API\node_modules\@jsreport\jsreport-core\lib\shared\request.js:36:23)
+    at WorkerReporter._render (c:\shoush\API\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:112:21)
+    at WorkerReporter.render (c:\shoush\API\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:128:17)
+    at c:\shoush\API\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:179:30
+    at WorkerReporter.executeWorkerAction (c:\shoush\API\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:174:12)
+    at Object.execute (c:\shoush\API\node_modules\@jsreport\jsreport-core\lib\worker\workerHandler.js:52:23)
+    at c:\shoush\API\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:93:41
+    at Domain.<anonymous> (c:\shoush\API\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:141:25) rootId=yftn0fzuh45ra3c, id=yftn0fzuh45ra3c
+2022-09-11T15:43:59.108Z - error: Error during processing request at http://localhost:8001/api/report, details: Unexpected token o in JSON at position 1, stack: SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (c:\shoush\API\node_modules\@jsreport\jsreport-core\lib\shared\request.js:60:17)
+    at module.exports (c:\shoush\API\node_modules\@jsreport\jsreport-core\lib\shared\request.js:36:23)
+    at WorkerReporter._render (c:\shoush\API\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:112:21)
+    at WorkerReporter.render (c:\shoush\API\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:128:17)
+    at c:\shoush\API\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:179:30
+    at WorkerReporter.executeWorkerAction (c:\shoush\API\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:174:12)
+    at Object.execute (c:\shoush\API\node_modules\@jsreport\jsreport-core\lib\worker\workerHandler.js:52:23)
+    at c:\shoush\API\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:93:41
+    at Domain.<anonymous> (c:\shoush\API\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:141:25)
+2022-09-11T15:46:37.470Z - error: Report render failed: Unexpected token o in JSON at position 1 SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (c:\shoush\API\node_modules\@jsreport\jsreport-core\lib\shared\request.js:60:17)
+    at module.exports (c:\shoush\API\node_modules\@jsreport\jsreport-core\lib\shared\request.js:36:23)
+    at WorkerReporter._render (c:\shoush\API\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:112:21)
+    at WorkerReporter.render (c:\shoush\API\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:128:17)
+    at c:\shoush\API\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:179:30
+    at WorkerReporter.executeWorkerAction (c:\shoush\API\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:174:12)
+    at Object.execute (c:\shoush\API\node_modules\@jsreport\jsreport-core\lib\worker\workerHandler.js:52:23)
+    at c:\shoush\API\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:93:41
+    at Domain.<anonymous> (c:\shoush\API\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:141:25) rootId=icwcoevg667v612, id=icwcoevg667v612
+2022-09-11T15:46:37.474Z - error: Error during processing request at http://localhost:8001/api/report, details: Unexpected token o in JSON at position 1, stack: SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (c:\shoush\API\node_modules\@jsreport\jsreport-core\lib\shared\request.js:60:17)
+    at module.exports (c:\shoush\API\node_modules\@jsreport\jsreport-core\lib\shared\request.js:36:23)
+    at WorkerReporter._render (c:\shoush\API\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:112:21)
+    at WorkerReporter.render (c:\shoush\API\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:128:17)
+    at c:\shoush\API\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:179:30
+    at WorkerReporter.executeWorkerAction (c:\shoush\API\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:174:12)
+    at Object.execute (c:\shoush\API\node_modules\@jsreport\jsreport-core\lib\worker\workerHandler.js:52:23)
+    at c:\shoush\API\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:93:41
+    at Domain.<anonymous> (c:\shoush\API\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:141:25)

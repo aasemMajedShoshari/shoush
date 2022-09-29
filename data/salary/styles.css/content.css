@@ -1,0 +1,21 @@
+html {
+  font-size: 62.5%;
+}
+body{
+  display: flex;
+  justify-content: center;
+}
+table {
+  margin-top: 100px;
+  border-collapse: collapse;
+}
+table td,
+table th {
+  padding: 0.8rem;
+  font-size: 1.6rem;
+}
+.header {
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: bold;
+}

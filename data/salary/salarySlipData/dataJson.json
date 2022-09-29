@@ -1,0 +1,29 @@
+{
+    "name":"",
+    "id":"",
+    "accNumber":"",
+    "joiningDate":"",
+    "designation":"",
+    "dayPresent":"30",
+    "totalPaidLeaves":"4",
+    "month":"",
+    "basicSalary":"",
+    "SSC":"",
+    "phone":"",
+    "meals":"",
+    "advance":"",
+    "incentives":"",
+    "arrears":"",
+    "miscDeductions":"",
+    "accomodation":"",
+    "incomeTax":"",
+    "transportation":"",
+    "medicalInsurance":"",
+    "loan":"",
+    "bonus":"",
+    "totalEarnings":"",
+    "totalDeductions":"",
+    "netSalary":""
+
+
+}
