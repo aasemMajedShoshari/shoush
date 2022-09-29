@@ -17,9 +17,9 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors());
 
-mongoose.connect(process.env.MONGO_URL, () => {
-  console.log("connected to mongoDB");
-});
+// mongoose.connect(process.env.MONGO_URL, () => {
+//   console.log("connected to mongoDB");
+// });
 
 app.use("/files", express.static(path.join(__dirname, "public/files")));
 
