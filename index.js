@@ -57,7 +57,7 @@ app.post("/add-employee", (req, res) => {
 });
 
 app.get("/get-employees", (req, res) => {
-  res.end("fuck off");
+  employee.getEmployees(req, res);
 });
 
 app.post("/edit-employee", (req, res) => {
