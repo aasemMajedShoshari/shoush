@@ -57,7 +57,7 @@ app.post("/add-employee", (req, res) => {
 });
 
 app.get("/get-employees", (req, res) => {
-  employee.getEmployees(req, res);
+  res.end("fuck off");
 });
 
 app.post("/edit-employee", (req, res) => {
@@ -106,9 +106,6 @@ app.post("/report", (req, res) => {
 
 app.post("/apply-career", (req, res) => {
   career.applyToCareer(req, res);
-});
-app.get("/", (req, res) => {
-  res.end("hello world");
 });
 
 app.listen(process.env.PORT || 8000, () => {
