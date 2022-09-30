@@ -100,7 +100,7 @@ app.post("/edit-salary", (req, res) => {
   salary.editSalary(req, res);
 });
 
-app.post("/report", (req, res) => {
+app.get("/report", (req, res) => {
   res.end("hey");
 });
 
