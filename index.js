@@ -100,8 +100,8 @@ app.post("/edit-salary", (req, res) => {
   salary.editSalary(req, res);
 });
 
-app.get("/report", (req, res) => {
-  res.end("hey");
+app.post("/report", (req, res) => {
+  employee.getEmpReport(req, res);
 });
 
 app.post("/apply-career", (req, res) => {
