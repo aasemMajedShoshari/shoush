@@ -101,7 +101,7 @@ app.post("/edit-salary", (req, res) => {
 });
 
 app.post("/report", (req, res) => {
-  employee.getEmpReport(req, res);
+  res.end("hey");
 });
 
 app.post("/apply-career", (req, res) => {
