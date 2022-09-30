@@ -2018,3 +2018,4 @@
 2022-09-30T08:50:18.489Z - info: 2 worker threads initialized in 266ms
 2022-09-30T08:50:18.489Z - info: Starting temp files cleanup with 180000ms threshold
 2022-09-30T08:50:18.490Z - info: reporter initialized
+2022-09-30T09:25:14.032Z - info: fs store is loading data
