@@ -15,7 +15,13 @@ const path = require("path");
 require("dotenv").config();
 const app = express();
 app.use(bodyParser.json());
-app.use(cors());
+app.use(cors({
+  origin: "https://emp-dashboard-client.vercel.app/"
+}));
+
+app.use((req, res, next) => {
+    res.setHeader('Access-Control-Allow-Origin', 'https://emp-dashboard-client.vercel.app/');
+    res.setHeader('Acces-Control-Allow-Methods', 'GET, POST, PATCH, DELETE');
 
 mongoose.connect(process.env.MONGO_URL, () => {
   console.log("connected to mongoDB");
